@@ -1,0 +1,6 @@
+Nombre: Daniela Lomas Oyervides
+Semestre: 3ro
+Carrera: ITS
+Clase: Programación Web - Clase ordinaria
+Maestro: Ing. Luis Daniel Lepe
+
