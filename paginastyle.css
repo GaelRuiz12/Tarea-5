@@ -1,28 +1,54 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
+    background-color: #f4f4f4;
 }
+nav {
+    background-color: #2e7d32; 
+    padding: 1.2em;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
 nav ul {
     list-style-type: none;
+    margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: space-around;
 }
+
 nav ul li {
     display: inline;
-    margin: 0 15px;
 }
+
 nav ul li a {
+    color: white;
     text-decoration: none;
     font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 25px; ¿
+    background-color: #66bb6a; 
+    transition: background-color 0.3s ease, transform 0.2s; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
+
+nav ul li a:hover {
+    background-color: #388e3c; ¿
+    transform: scale(1.1); ¿
+}
+
+
 .active {
     font-weight: bold;
 }
+
 img {
     width: 300px;
     margin: 20px 0;
 }
+
 .carousel-image {
-    width: 50%; /* Ajusta este valor para cambiar el tamaño */
-    height: auto; /* Mantiene la proporción */
-    margin: 0 auto; /* Centra la imagen */
+    width: 50%; 
+    height: auto; 
+    margin: 0 auto;
 }
